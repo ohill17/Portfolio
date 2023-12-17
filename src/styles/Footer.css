@@ -26,3 +26,15 @@
     font-size: 50px;
   }
 }
+.copied-message {
+  position: absolute;
+  background-color: #18274dd2;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  transition: opacity 1s ease-in-out;
+}
+
+.copied-message.fade-out {
+  opacity: 0;
+}
